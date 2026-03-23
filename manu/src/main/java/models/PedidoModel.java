@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name="TB_PEDIDO")
 public class PedidoModel {
-    @id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private LocalDateTime data;
